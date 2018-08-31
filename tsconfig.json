@@ -1,0 +1,21 @@
+{
+    "buildOnSave": false,
+    "compileOnSave": false,
+    "compilerOptions": {
+        "charset": "utf8",
+        "module": "commonjs",
+        "target": "es6",
+        "lib": [
+            "es6"
+        ],
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "outDir": "functions",
+        "noImplicitReturns": true,
+    },
+    "typeRoots": [
+        "node_modules/@types"
+    ]
+}
