@@ -11,6 +11,7 @@ npm, tsc, gcloud commands installed
   "function_name": "Your function name, it must match the name of export function in index.ts.",
   "region": "europe-west1 or us-east1 or us-central1 or asia-northeast1",
   "gcp_project": "Your GCP project name"
+  "runtime": "nodejs8"
 }
 ```
 

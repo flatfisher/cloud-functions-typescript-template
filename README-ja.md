@@ -10,7 +10,8 @@ npm, tsc, gcloud コマンドがインストール済
 "config": {
   "function_name": "関数の名前を定義,　この関数名はindex.tsの export function の名前と一致する必要があります",
   "region": "europe-west1 or us-east1 or us-central1 or asia-northeast1",
-  "gcp_project": "デプロイ先のGCPプロジェクトのIDをいれます"
+  "gcp_project": "デプロイ先のGCPプロジェクトのIDをいれます",
+  "runtime": "nodejs8"
 }
 ```
 
