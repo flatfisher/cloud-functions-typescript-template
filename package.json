@@ -6,7 +6,8 @@
   "config": {
     "function_name": "helloWorld",
     "region": "",
-    "gcp_project": ""
+    "gcp_project": "",
+    "runtime": ""
   },
   "scripts": {
     "clean": "rimraf \"functions/*\"",
@@ -15,7 +16,7 @@
     "cp-package": "copyfiles package.json functions/src",
     "build": "run-s clean lint tsc cp-package",
     "test": "mocha \"functions/test/\"",
-    "deploy": "gcloud functions deploy $npm_package_config_function_name --region=$npm_package_config_region --trigger-http --project $npm_package_config_gcp_project"
+    "deploy": "gcloud functions deploy $npm_package_config_function_name --runtime $npm_package_config_runtime --region=$npm_package_config_region --trigger-http --project $npm_package_config_gcp_project"
   },
   "keywords": [
     "cloud",
