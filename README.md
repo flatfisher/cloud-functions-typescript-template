@@ -15,22 +15,28 @@ npm, tsc, gcloud commands installed
 }
 ```
 
+## Lint
+
+```
+$ npm run lint
+```
+
 ## Build
 
 ```
-$npm run build
+$ npm run build
 ```
 
 ## Test
 
 ```
-$npm run test
+$ npm run test
 ```
 
 ## Deploy
 
 ```
-$npm run deploy --prefix functions/src/
+$ pm run deploy --prefix functions/src/
 ```
 
 ## Pull Request
