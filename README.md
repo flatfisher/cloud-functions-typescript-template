@@ -32,3 +32,6 @@ $npm run test
 ```
 $npm run deploy --prefix functions/src/
 ```
+
+## Pull Request
+Feel free to create a pull request:) Recommended settings, bug fixes, descriptions and more!
