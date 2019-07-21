@@ -40,5 +40,5 @@ $ npm run test
 $ pm run deploy --prefix functions/src/
 ```
 
-## Pull Request
+## Contribution
 Feel free to create a pull request:) Recommended settings, bug fixes, descriptions and more!
