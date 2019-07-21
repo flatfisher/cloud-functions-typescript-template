@@ -22,6 +22,7 @@ $ npm run lint
 ```
 
 ## Build
+It makes a Node.js project into `functions/src/`
 
 ```
 $ npm run build
