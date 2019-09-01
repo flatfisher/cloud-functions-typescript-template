@@ -6,7 +6,8 @@
         "module": "commonjs",
         "target": "es2018",
         "lib": [
-            "es2018"
+            "es2018",
+            "dom"
         ],
         "noImplicitAny": true,
         "removeComments": true,
@@ -17,7 +18,7 @@
         "sourceMap": false,
         "esModuleInterop": false,
         "outDir": "functions",
-        "noImplicitReturns": true,
+        "noImplicitReturns": true
     },
     "typeRoots": [
         "node_modules/@types"
