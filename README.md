@@ -37,7 +37,7 @@ $ npm run test
 ## Deploy
 
 ```
-$ npm run deploy --prefix functions/src/
+$ pm run deploy --prefix functions/src/
 ```
 
 ## Contribution
