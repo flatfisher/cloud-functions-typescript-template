@@ -1,6 +1,6 @@
 {
     "name": "google-cloud-functions-typescript",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "description": "This is a TypeScript based Cloud Functions template.",
     "main": "index.js",
     "config": {
