@@ -5,6 +5,9 @@ const path = require('path');
 
 function main() {
     if (process.argv.length > 2) {
+        if (!fs.existsSync(process.argv[2])) {
+            fs.mkdirSync(process.argv[2])
+        }
         copyFolderRecursiveSync("./node_modules/google-cloud-functions-typescript/", process.argv[2])
     }
 }
@@ -16,7 +19,6 @@ function copyFileSync(source, target) {
             targetFile = path.join(target, path.basename(source));
         }
     }
-
     fs.writeFileSync(targetFile, fs.readFileSync(source));
 }
 
