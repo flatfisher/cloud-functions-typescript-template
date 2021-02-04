@@ -36,7 +36,7 @@
         "@types/mocha": "8.2.0",
         "@types/moment": "2.13.0",
         "@types/node": "13.13.41",
-        "chai": "4.2.0",
+        "chai": "4.3.0",
         "chai-http": "4.3.0",
         "copyfiles": "2.4.1",
         "express": "4.17.1",
